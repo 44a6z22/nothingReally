@@ -1,0 +1,65 @@
+:root{
+	--main-border-color:  #b3b6b7 ;
+	--main-bg-color:  #d0d3d4  ;
+	--hover-color:  #4d5656  ;
+	--blackish :  #1d1e1e  ;
+	--greyish : #424949 ;
+}
+body{
+	background-image: url("../img/40.jpg");
+	background-repeat: no-repeat;
+}
+.info a{
+	text-decoration: none;
+	color: black;	
+}
+.info a:hover{
+	text-decoration: none;
+	color: var(--greyish);	
+}
+
+h1{
+    text-align:center;
+}
+.profile{
+	box-shadow: 0px 0px 15px var(--blackish);
+	padding-top: 15px;
+	margin-top: 158px;
+	background:  var(--main-bg-color) ;
+    border-radius:8px;
+    border:none ; 
+}
+#profile-pic{
+	height: 90px;
+	width: 90px;
+	border: solid 2px var(--main-border-color);
+ }
+ #profile-pic:hover{
+ 	border: solid 2px var(--hover-color);
+ 	cursor: pointer;
+ }
+footer p{
+	margin-left: 100px;
+	font-size: 10px;
+}
+.skills{
+		border-right: solid 1px var(--main-border-color); 	
+
+}
+.skills,
+.projects{
+	border-top: solid 1px var(--main-border-color);
+}
+.skills a{
+	/*border:solid 1px white;
+	border-radius: 3px;*/
+	padding-right: 5px;
+	padding-left: 5px;
+	margin-left: 10px;
+	text-transform: lowercase;
+}
+
+.info {
+	margin-bottom: 10px;
+	padding-bottom: 10px; 
+}
