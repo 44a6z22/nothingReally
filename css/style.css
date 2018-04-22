@@ -48,6 +48,8 @@ footer p{
 }
 .skills,
 .projects{
+	padding-top: 10px;
+	padding-bottom: 10px;
 	border-top: solid 1px var(--main-border-color);
 }
 .skills a{
@@ -61,5 +63,6 @@ footer p{
 
 .info {
 	margin-bottom: 10px;
-	padding-bottom: 10px; 
+	padding-top: 15px;
+	padding-bottom: 15px; 
 }
