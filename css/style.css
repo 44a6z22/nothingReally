@@ -8,6 +8,7 @@
 body{
 	background-image: url("../img/40.jpg");
 	background-repeat: no-repeat;
+
 }
 .info a{
 	text-decoration: none;
@@ -17,7 +18,11 @@ body{
 	text-decoration: none;
 	color: var(--greyish);	
 }
-
+.info {
+	margin-bottom: 10px;
+	padding-top: 15px;
+	padding-bottom: 8px; 
+}
 h1{
     text-align:center;
 }
@@ -30,16 +35,15 @@ h1{
     border:none ; 
 }
 #profile-pic{
-	height: 90px;
-	width: 90px;
+	height: 95px;
+	width: 95px;
 	border: solid 2px var(--main-border-color);
  }
  #profile-pic:hover{
  	border: solid 2px var(--hover-color);
  	cursor: pointer;
  }
-footer p{
-	margin-left: 100px;
+footer {
 	font-size: 10px;
 }
 .skills{
@@ -61,8 +65,3 @@ footer p{
 	text-transform: lowercase;
 }
 
-.info {
-	margin-bottom: 10px;
-	padding-top: 15px;
-	padding-bottom: 15px; 
-}
