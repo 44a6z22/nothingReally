@@ -65,3 +65,12 @@ footer {
 	text-transform: lowercase;
 }
 
+.not-btn{
+	padding-top: 10px;
+	background: transparent;
+	border: none;
+	color: var(--blackish);
+} 
+.not-btn:hover{
+	cursor: pointer;
+}
