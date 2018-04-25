@@ -6,7 +6,6 @@ var	i = 0;
 for(i = 0 ; i < code.length ; i++){
 	ThatEntry += i;
 }
-alert(ThatEntry);
 
 if(Meca != ThatEntry) {
 	alert("Erreur !!");
