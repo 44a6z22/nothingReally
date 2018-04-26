@@ -9,7 +9,7 @@ for(i = 0 ; i < code.length ; i++){
 
 if(Meca != ThatEntry) {
 	alert("Erreur !!");
-	window.location.href="https://github.com/44a6z22/44a6z22.github.io/blob/new/README.org";
+	window.location.href="https://github.com/44a6z22/44a6z22.github.io/blob/master/README.org";
 } else {
 	
 }
