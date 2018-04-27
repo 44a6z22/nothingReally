@@ -74,3 +74,8 @@ footer {
 .not-btn:hover{
 	cursor: pointer;
 }
+
+.SkillIcon{
+	width: 15px;
+	height: 15px;	
+}
