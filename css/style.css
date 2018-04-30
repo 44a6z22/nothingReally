@@ -79,3 +79,13 @@ footer {
 	width: 15px;
 	height: 15px;	
 }
+
+#btn{
+	border:none;
+	background: transparent;
+	
+}
+#btn:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}

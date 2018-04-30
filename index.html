@@ -6,12 +6,10 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="shortcut icon"  href="img/favicon.ico">
-  <!--  <script type="text/javascript" src="js/main.js"> -->
- 
-    </script>
+  <script type="text/javascript" src="js/main.js"></script>
   </head>
 
-  <body>
+  <body onload="change('hide');">
     <div class="container-fluid">
 
         <div class="row">
@@ -46,8 +44,10 @@
                           <a href="#">hhamdaoui31@gmail.com</a>
                         </div>
                         <div>
-                          <label>Main C.V : </label>
-                          <a target="_blank" href="https://www.mediafire.com/file/cxynyw772hielgh/cv-xruawgdghk29102017080758.docx">C.V</a>
+                          <label>Phone : </label>
+                          <a target="_blank" id="rip" >+212698744691</a>
+                          <label id="ripo" hidden="true">+212698744691</label>
+                          <label onclick="change(document.getElementById('btn').innerHTML);" id="btn">show</label>
                         </div>
                       </div>
                  
