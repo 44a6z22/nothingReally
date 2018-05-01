@@ -1,3 +1,7 @@
+/**
+ * [takes the numbers and turn them into stars or takes them stars and turn them to numbers ]
+ * @param  {[string]} bool [2 values : "button value" tell the function what to do ]
+ */
 function change(bool){	 	
 		var elament = document.getElementById('rip');
 		var btn = document.getElementById('btn');
@@ -17,7 +21,9 @@ function change(bool){
 			document.getElementById('rip').innerHTML = document.getElementById('ripo').innerHTML ;
 		}	
 }
-	
+	/**
+	 * [just a wast of time :D]
+	 */
 function onStartup(){
 	
 var code = new Array("a", "b", "c", "d", "e", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z");
