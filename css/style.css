@@ -57,8 +57,6 @@ footer {
 	border-top: solid 1px var(--main-border-color);
 }
 .skills a{
-	/*border:solid 1px white;
-	border-radius: 3px;*/
 	padding-right: 5px;
 	padding-left: 5px;
 	margin-left: 10px;
